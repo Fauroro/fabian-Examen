@@ -8,26 +8,29 @@ export class TipoApp extends HTMLElement {
   render() {
     this.innerHTML =/* html*/`
     <div class="text">
-      <h1>¿Que ntipo de App necesitas?</h1>
+      <h1>¿Que Tipo de App necesitas?</h1>
     </div>
-    <div class="opciones2">
-      <a href="#" id="2000.000" class="tipo">
-        <img class="imgMain" src="./images/answer-2-1.png" alt="">
-        <p>Aplicación Android</p>
+    <div class="opciones">
+      <a href="#" id="2000.000" name="tipo" title="Aplicación Android">
+        <div>
+          <img class="" src="./images/answer-2-1.png" alt="" title="Aplicación Android" id="2000.000" name="tipo">
+          <p title="Aplicación Android" id="2000.000" name="tipo">Aplicación Android </p>
+        </div>
       </a>
-      <a href="#" id="3000.000" class="tipo">
-        <img class="imgMain" src="./images/answer-2-2.png" alt="">
-        <p>Aplicación iOS</p>
+      <a href="#" id="3000.000 "title="Aplicación iOS " name="tipo">
+        <img class="" src="./images/answer-2-2.png" alt="" id="3000.000" title="Aplicación iOS " name="tipo">
+        <p id=3000.000 class="Aplicación iOS ">Aplicación iOS</p>
       </a>
-      <a href="#" id="800.000" class="tipo">
-        <img class="imgMain" src="./images/answer-2-3.png" alt="">
-        <p>Aplicación Windows Phone</p>
+      <a href="#" id="800.000" title="Aplicación Windows Phone" name="tipo">
+        <img class="" src="./images/answer-2-3.png" alt="" id="800.000" title="Aplicación Windows Phone" name="tipo">
+        <p id="800.000" title="Aplicación Windows Phone" name="tipo">Aplicación Windows Phone</p>
       </a>
-      <a href="#" id="3500.000" class="tipo">
-        <img class="imgMain" src="./images/answer-2-4.png" alt="">
-        <p>Aplicación Android + iOS</p>
+      <a href="#" id="3500.000" title="Aplicación Android + iOS" name="tipo">
+        <img class="" src="./images/answer-2-3.png" alt="" id="3500.000" title="Aplicación Android + iOS" name="tipo">
+        <p id="3500.000" title="Aplicación Android + iOS" name="tipo">Aplicación Android + iOS</p>
       </a>
     </div>
+        
         `
   }
 

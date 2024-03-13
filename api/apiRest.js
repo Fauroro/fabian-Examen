@@ -22,22 +22,22 @@ const getTask = async (endpoint) => {
     }
 
 }
-const postTask = (datos, endpoint) => {
-  return new Promise((resolve, reject) => {
-    fetch(`${URL_API}/${endpoint}`, {
-      method: "POST",
-      headers: myHeaders,
-      body: JSON.stringify(datos),      
+const postTask = (datos) => {
+    fetch(`${URL_API}`,
+    {
+        method: "POST",
+        headers: myHeaders,
+        body: JSON.stringify(datos)
+    }
+    ).then(res => {
+        return res.json()
+    }).then(res => {
+        //idUser=res.id;
+    }).catch(err => {
+        console.log(err);
     })
-      .then((res) => res.json())
-      .then((res) => {
-        resolve(res.id);
-      })
-      .catch((err) => {
-        reject(err);
-      });
-  });
-};
+
+}
 const putTask = (datos, endpoint) => {
     fetch(`${URL_API}/${endpoint}`,
         {
