@@ -1,4 +1,5 @@
-const URL_API = "http://154.38.171.54:3000/priceK";
+// const URL_API = "http://154.38.171.54:3000/priceK";
+const URL_API = "http://localhost:3500/USER";
 
 const myHeaders = new Headers({
     "Content-Type": "application/json"
@@ -24,11 +25,11 @@ const getTask = async (endpoint) => {
 }
 const postTask = (datos) => {
     fetch(`${URL_API}`,
-    {
-        method: "POST",
-        headers: myHeaders,
-        body: JSON.stringify(datos)
-    }
+        {
+            method: "POST",
+            headers: myHeaders,
+            body: JSON.stringify(datos)
+        }
     ).then(res => {
         return res.json()
     }).then(res => {

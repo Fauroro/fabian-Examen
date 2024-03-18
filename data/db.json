@@ -1,0 +1,30 @@
+{
+  "USER": [
+    {
+      "id": "ed57",
+      "calidad": "Buena relación calidad/precio",
+      "precioCalidad": "380000",
+      "tipo": "Aplicación iOS ",
+      "precioTipo": "3000000",
+      "diseno": "Interfaz replicada de la web",
+      "precioDiseno": "800000",
+      "monetizar": "Aplicación de pago",
+      "precioMonetizar": "1000000",
+      "login": "Sí, con email",
+      "precioLogin": "1500000"
+    },
+    {
+      "id": "b0e3",
+      "calidad": "Buena relación calidad/precio",
+      "precioCalidad": "380000",
+      "tipo": "Aplicación iOS ",
+      "precioTipo": "3000000",
+      "diseno": "Interfaz replicada de la web",
+      "precioDiseno": "800000",
+      "monetizar": "Aplicación de pago",
+      "precioMonetizar": "1000000",
+      "login": "Sí, con email",
+      "precioLogin": "1500000"
+    }
+  ]
+}

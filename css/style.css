@@ -1,30 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(44, 44, 44);
     color: white;
     margin: 15px;
+    background-color: transparent;
 }
-a{
-    text-decoration: none;
-    transition:ease-in-out 300ms;
+body{
     
+    background-color: rgb(44, 44, 44);
+}
+a {
+    text-decoration: none;
+    transition: ease-in-out 300ms;
+
 }
 
-a:hover{
+a:hover {
     transform: translateY(-7px);
     background-color: lightgray;
 }
-div{
+
+div {
     background-color: transparent;
 }
-div.main-content{
+
+div.main-content {
     display: grid;
     justify-content: center;
 
 }
-div.container{
+
+div.container {
     display: grid;
     text-align: center;
     justify-content: center;
@@ -33,40 +40,46 @@ div.container{
     margin: 15px;
     width: 80vw;
 }
-div.content{
+
+div.content {
     width: 80vw;
 }
-img{
+
+img {
     background-color: transparent;
 
 }
 
-img.imgMain{
+img.imgMain {
     width: fit-content;
     max-width: 300px;
     height: auto;
 }
-span{
+
+span {
     color: rgb(105, 214, 214);
 }
 
-p{
+p {
     background-color: transparent;
     font-weight: bold;
 }
 
-button.empezar {
+button {
+    border: none;
+    border-radius: 5px;
     padding: 0 30px 0 30px;
-    background-color: cyan;
+    background: linear-gradient(90deg, #01FFE1, #6c44c2);
 }
 
-div.opciones{
+div.opciones {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, (minmax(50px,1fr))); */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-div.opciones2{
+
+div.opciones2 {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, (minmax(50px,1fr))); */
-    grid-template-columns: repeat(4,1fr);
-}
+    grid-template-columns: repeat(4, 1fr);
+}   
